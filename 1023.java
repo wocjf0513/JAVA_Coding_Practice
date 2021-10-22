@@ -10,18 +10,21 @@ class Main{
 		Stack<Integer> stack=new Stack<>();
 		int temp=0;
 		while(true){
-			if(gernerator(temp)<=10000)
+			if(gernerator(temp)<=20000)
 				stack.push(gernerator(temp));
 			else
 				break;
 
 			temp++;
 		}
-		
-		for(int i=1; i<=10000; i++){
-			if(stack.search(i)==-1)
-				System.out.println(i);
-	}
+
+		temp=0;
+		while(temp<=10000)
+		{
+			if(stack.search(temp)==-1)
+			System.out.println(temp);
+			temp++;
+		}
 
 	}
 
