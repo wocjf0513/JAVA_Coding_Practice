@@ -16,12 +16,11 @@ public class Main{
 			if(c==' ')
 				count++;
 		}
+		if(str.charAt(0)==' ')
+			count--;
+		if(str.charAt(str.length()-1)==' ')
+			count--;
 		System.out.print(count);
 	}
-
-
-
-
-
 
 }
