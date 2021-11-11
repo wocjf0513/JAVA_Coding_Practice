@@ -1,7 +1,7 @@
+
 import java.util.Scanner;
 
-public class 1712{
-
+public class baekjoon1712{
 	public static void main(String args[]){
 		Scanner in=new Scanner(System.in);
 		Long[] input=new Long[3];
