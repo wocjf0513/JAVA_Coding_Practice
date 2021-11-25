@@ -3,7 +3,6 @@ import java.util.*;
 public class Programmers_targetnumber {
 
     static int answer;
-    static int sum=0;
     public static void main (String args[]){
         //int배열의 numbers, int target
          dfs(new int[]{1,1,1,1,1},0,0,3);
