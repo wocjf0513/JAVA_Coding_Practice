@@ -1,5 +1,4 @@
-## Baekjoon https://www.acmicpc.net/ 
-## Programmers https://programmers.co.kr/
+## Coding Test Practice (using JAVA)
 
 
 | 사이트              |  푼문제                                                       |
