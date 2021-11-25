@@ -2,7 +2,7 @@ import java.util.*;
 
 
 
-public class baekjoon1002{
+public class baekjoon_1002{
 	public static void main(String args[]){
 		Scanner in=new Scanner(System.in);
 		int loop=in.nextInt();

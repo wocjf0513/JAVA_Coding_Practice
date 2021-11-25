@@ -1,4 +1,4 @@
-public class Pro_Solution2 {
+public class Programmers_makebigInteger {
     public static void main(String args[]){
         System.out.println(solution("999",2));
 

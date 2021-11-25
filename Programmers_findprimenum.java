@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Solution {
+public class Programmers_findprimenum {
 
     static String numbers="011";
     static ArrayList<Integer> arr=new ArrayList<Integer>();

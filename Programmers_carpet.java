@@ -1,4 +1,4 @@
-class ProgrammerCarpet{
+class Programmers_carpet{
     public static void main(String args[]){
         for(int i:solution(10,2))
         System.out.println(i);
