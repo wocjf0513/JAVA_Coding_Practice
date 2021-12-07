@@ -11,7 +11,7 @@ public class Programmers_43163{
     }
     public static int solution(String begin, String target, String[] words) {
         int answer =10000;
-        bfs(begin,target,0,words);
+        dfs(begin,target,0,words);
         if(min_search==Integer.MAX_VALUE)
         return 0;
         return answer;
