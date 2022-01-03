@@ -26,7 +26,7 @@ public class Programmers_43163{
         for(int i=0; i<words.length; i++){
             if(alpha1(source,words[i]) && !checked[i]){
                 checked[i]=true;
-                bfs(words[i],target,count+1,words);
+                dfs(words[i],target,count+1,words);
                 checked[i]=false;
             }
 
