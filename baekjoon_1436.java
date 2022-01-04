@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 
-public class Main {
+public class baekjoon_1436 {
 
     // dynamic schedule
     // 입력이 10으로 주워졌을 때, 1-> 3-> 9-> 10이 되는데 
