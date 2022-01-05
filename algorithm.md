@@ -53,3 +53,19 @@ public static void bfs(int n,int v, int[][] numbers, boolean[] visited) {
         }
     }
 ```
+
+</br>
+
+> 2중 배열 sorting
+>>
+```java
+Arrays.sort(time, new Comparator<int[]>(){
+         @Override 
+         public int compare(int[] o1, int[] o2){
+             if(o1[1]==o2[1]) //int[0][1] int[1][1]의 값이 같으면 
+                return o1[0] - o2[0];  //int [0][0] int [1][0] 의 값을 비교해서 오름차순 
+            else
+                return o1[1]-o2[1]; 
+        }
+    });
+```
