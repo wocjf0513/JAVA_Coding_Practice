@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class baekjoon_1260 {
 
     static ArrayList<Integer> dfs_list;
     static ArrayList<Integer> bfs_list;
