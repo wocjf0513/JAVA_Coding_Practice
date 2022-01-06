@@ -51,7 +51,7 @@ public class Programmers_43164 {
                     checked.add(i);
                     travel+=tickets[i][1];
                     dfs(tickets[i][1],checked,tickets,travel); 
-                    checked.remove();
+                    checked.remove(i);
                     if(travel.length()==3)
                     travel="";
                     else

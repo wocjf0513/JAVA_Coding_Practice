@@ -9,6 +9,7 @@
 </br>
 
 >dfs
+>>if(count > minVal) return; //가지치기 - 이미 count가 minVal보다 커졌다면 return; , for 문이 아니어도 dfs 가능
 ```java
 public static void dfs(String source, String target, int count,String[] words){
         if(source==target){
@@ -26,6 +27,7 @@ public static void dfs(String source, String target, int count,String[] words){
         }
     }
 ```
+
 </br>
 
 
@@ -68,4 +70,12 @@ Arrays.sort(time, new Comparator<int[]>(){
                 return o1[1]-o2[1]; 
         }
     });
+```
+</br>
+
+> int -> integer, integer -> int
+```java
+Integer[] b_int=Arrays.stream(b).boxed().toArray(Integer[]::new);
+        Arrays.sort(b_int, Comparator.reverseOrder());
+        b=Arrays.stream(b_int).mapToInt(j->j).toArray();
 ```
