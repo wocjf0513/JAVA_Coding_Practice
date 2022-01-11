@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 
-public class Main {
+public class baekjoon_2667 {
     //bfs는 dfs와 같이 작동되지 않는다. bfs함수 안에 bfs를 넣지 않는다.
     //bfs를 통해 각자 인접한 1을 visited에 true하면서 갯수를 셀 수 있다.
     //bfs와 dfs는 다른 알고리즘보다 하나씩 따져가면서 할 필요가 있다.    
